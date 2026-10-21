@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: arena-live-servidor
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
